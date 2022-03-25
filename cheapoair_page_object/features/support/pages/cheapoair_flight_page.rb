@@ -3,6 +3,7 @@ class CheapoairFlightPage
   include PageObject
   page_url "www.cheapoair.com"
 
+  #link(:dep_suggestion_boxes, class: 'suggestion-box__clear icon', index: 0)
   link(:dep_suggestion_box, class: 'suggestion-box__clear icon', index: 0)
   link(:arr_suggestion_box, class: 'suggestion-box__clear icon', index: 1)
   text_field(:dep_airport_field, id: 'from0')
