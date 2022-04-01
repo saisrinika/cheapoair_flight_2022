@@ -1,1 +1,2 @@
 default: --no-source --color --format pretty
+smoke: --no-source --color --format pretty -- tags @smoke
