@@ -1,7 +1,8 @@
 class CheapoairFlightPage
 
   include PageObject
-  page_url "www.cheapoair.com"
+  page_urls "www.cheapoair.com"
+  #page_url "www.cheapoair.com"
 
   #link(:dep_suggestion_boxes, class: 'suggestion-box__clear icon', index: 0)
   link(:dep_suggestion_box, class: 'suggestion-box__clear icon', index: 0)
